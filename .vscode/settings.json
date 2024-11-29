@@ -1,0 +1,5 @@
+{
+    "rust-analyzer.linkedProjects": [
+    "my-process-manager/src-tauri/Cargo.toml",
+    ]
+}
