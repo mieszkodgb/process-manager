@@ -36,6 +36,7 @@ fn list_process() -> Vec<ProcessInfo>{
         }).collect()
 }
 
+#[tauri::command]
 fn kill_process(id: &str)-> bool{
     let mut sys = System::new_all();
     sys.refresh_all();
